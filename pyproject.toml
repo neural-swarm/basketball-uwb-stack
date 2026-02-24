@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basketball-uwb-stack"
+version = "0.1.0"
+description = "Basketball UWB/LPS+IMU Tracking Stack"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["tracking_mvp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
